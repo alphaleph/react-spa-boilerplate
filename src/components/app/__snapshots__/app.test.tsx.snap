@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App has not changed 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <button
+      class="skip-nav test-class"
+    >
+      Hello World!
+    </button>
+    <button
+      class="is-light"
+    >
+      Toggle Dark Mode
+    </button>
+    <header
+      class="App-header"
+    >
+      <h1>
+        Example title
+      </h1>
+      <img
+        alt="logo"
+        class="App-logo"
+        src="logo.svg"
+      />
+      <p>
+        Edit 
+        <code>
+          src/app.tsx
+        </code>
+         and save to reload.
+      </p>
+      <a
+        class="App-link"
+        href="https://reactjs.org"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Learn React
+      </a>
+    </header>
+  </div>
+</DocumentFragment>
+`;

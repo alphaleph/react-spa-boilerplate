@@ -1,3 +1,5 @@
+@import '../../shared.scss';
+
 .App {
   text-align: center;
 }
@@ -28,6 +30,17 @@
   color: #61dafb;
 }
 
+.skip-nav {
+  position: absolute;
+  left: -10000px;
+}
+
+.skip-nav:focus {
+  top: 1rem;
+  left: 1rem;
+  z-index: 1;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +49,4 @@
     transform: rotate(360deg);
   }
 }
+
